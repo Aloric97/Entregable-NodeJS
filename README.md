@@ -85,8 +85,19 @@ npm install morgan  --save
 
 ##  Listado de endpoints, de cada modelo [GET]
 #### PRODUCTOS
-- `/api/products/` - obtener todos los productos
+- `/api/products/` - obtener todos los productos. Se puede usar 1 parametro
+   
+   Parametro:
+   `http://127.0.0.1:3000/api/products?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
+   
 - `/api/products/:id` - obtener solo un producto, a través del id pasado por parámetro
 - `/api/products/category/:category` - obtener los productos de la misma categoria pasado por parámetro
 - `/api/products/category/name/:category` - obtener el título de los productos de una categoria pasado por parámetro
-- `/api/products/order/price` - obtener y ordenar los precios de los productos, de mayor a menor 
+- `http://127.0.0.1:3000/api/products/price/groupby` - obtener los productos solo con el id, titulo y precio. Se puede usar dos parametros
+  
+  Primer parametro:
+   `http://127.0.0.1:3000/api/products/price/groupby?order=des` - Se encarga de ordenar los precios de MAYOR a MENOR
+  
+  Segundo parametro:
+  `http://127.0.0.1:3000/api/products/price/groupby?order=asc` - Se encarga de ordenar los precios de MENOR a MAYOR
+- `/api/products/category/:category/expensive` - obtener los productos los productos más caros de una categoría específica ingresada por parametro
