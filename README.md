@@ -86,7 +86,7 @@ npm install morgan  --save
 ##  Listado de endpoints, de cada modelo [GET]
 #### PRODUCTOS
 - `/api/products/` - obtener todos los productos
-- `/api/products/:id` - obtener solo un producto, a traves del id pasado por parametro
-- `/api/products/category/:category` - obtener los productos de la misma categoria pasado por parametro
-- `/api/products/category/name/:category` - obtener el titulo de los productos de una categoria pasado por parametro
+- `/api/products/:id` - obtener solo un producto, a través del id pasado por parámetro
+- `/api/products/category/:category` - obtener los productos de la misma categoria pasado por parámetro
+- `/api/products/category/name/:category` - obtener el título de los productos de una categoria pasado por parámetro
 - `/api/products/order/price` - obtener y ordenar los precios de los productos, de mayor a menor 
