@@ -1,4 +1,4 @@
-# ENTREGABLE_1
+# ENTREGABLE 1
 
 Para este siguiente entregable, me propuse crear esta documentación para tener una mejor resolución sobre las definiciones y módulos que instalaré a lo largo de este proyecto
 
