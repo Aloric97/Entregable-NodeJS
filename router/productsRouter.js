@@ -11,7 +11,8 @@ router.get('/api/products', productsController.allProducts);
 router.get('/api/products/:id', productsController.productById);
 router.get('/api/products/category/:category', productsController.productsByCategory);
 router.get('/api/products/category/name/:category', productsController.productsByCategoryOnlyTitle);
-router.get('/api/products/order/price', productsController.productsOrderByPrice);
+router.get('/api/products/price/groupby', productsController.productsOrderByPrice);
+router.get('/api/products/category/:category/expensive',productsController.productsMoreExpensive)
 
 
 // exportamos las rutas de los productos
