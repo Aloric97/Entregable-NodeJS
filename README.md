@@ -1,6 +1,6 @@
 # ENTREGABLE 1
 
-Para este siguiente entregable, me propuse crear esta documentación para tener una mejor resolución sobre las definiciones y módulos que instalaré a lo largo de este proyecto
+En este siguiente entregable, me propuse crear esta documentación para tener una mejor resolución sobre las definiciones y módulos que instalaré a lo largo de este proyecto
 
 Antes de comenzar, me gustaría definir las partes de un MVC (modelo-vista-controlador), patrón de diseño que propone separar nuestro código por responsabilidad.
 
