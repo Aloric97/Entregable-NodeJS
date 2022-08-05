@@ -82,3 +82,6 @@ Comando instalación del paquete:
 ```shell
 npm install morgan  --save
 ```
+
+##  Listado de endpoints, de cada modelo [GET]
+#### PRODUCTOS
