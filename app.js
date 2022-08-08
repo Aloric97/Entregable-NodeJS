@@ -15,11 +15,13 @@ const errorHandler = require('./middlewares/errorHandler');
 
 puerto=3000;
 
-// hacemos uso del middleware morgan para mostrar las solicitudes HTTP
-app.use(logger('dev'));
-
 // middleware para las fechas
 app.use(dates.myDate);
+
+// hacemos uso del middleware morgan para mostrar las solicitudes HTTP
+app.use(logger("metodo: " + " :method " + " pagina: " + " :url " + " estado:" + " :status\n"));
+
+
 
 // llamamos a todas las rutas de los productos definidas en el productsRouter
 app.use(productsRouter);
@@ -35,5 +37,5 @@ app.use(errorHandler.serverError);
 
 // iniciar servidor
 app.listen(puerto, () => {
-    console.log(`El servidor se está corriendo en el puerto: ${puerto}`);
+    console.log(`El servidor se está corriendo en el puerto: ${puerto}\n`);
 });
