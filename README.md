@@ -103,7 +103,7 @@ npm install morgan  --save
    `/api/products/category/:category/expensive` - obtener los productos los productos más caros de una categoría específica ingresada por parametro
 
 
-#### Carritos
+#### CARRITOS
 - `/api/carts` - obtener todos los carritos. Se puede usar 1 parametro
 
   Parametro:
@@ -112,7 +112,7 @@ npm install morgan  --save
 -`/api/carts/bigcarts` - obtener los nombres de usuarios que tienen mas de dos productos en el carrito
 -`/api/carts/:id` - obtener solo un carrito, a través del id pasado por parámetro
 
-#### Usuarios
+#### USUARIOS
 - `/api/users/` - obtener todos los usuarios. Se puede usar 1 parametro
    
    Parametro:
