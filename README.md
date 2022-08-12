@@ -109,8 +109,8 @@ npm install morgan  --save
   Parametro:
   `/api/carts?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
 
--`/api/carts/bigcarts` - obtener los nombres de usuarios que tienen mas de dos productos en el carrito
--`/api/carts/:id` - obtener solo un carrito, a través del id pasado por parámetro
+- `/api/carts/bigcarts` - obtener los nombres de usuarios que tienen mas de dos productos en el carrito
+- `/api/carts/:id` - obtener solo un carrito, a través del id pasado por parámetro
 
 #### USUARIOS
 - `/api/users/` - obtener todos los usuarios. Se puede usar 1 parametro
