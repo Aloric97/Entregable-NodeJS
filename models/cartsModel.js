@@ -7,10 +7,18 @@ let getCarts =  () => {
            .then(res=>res.json()
 )};
 
+// obtenemos un objeto carrito por su id
+let getCartById = (id) => {
+    return fetch(`https://fakestoreapi.com/carts/${id}`)
+              .then(res=>res.json()
+)};
+
+
 
 
 let carts = {
-    getCarts
+    getCarts,
+    getCartById
 };
 
 

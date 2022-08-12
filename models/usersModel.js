@@ -7,8 +7,17 @@ let getUsers =  () => {
            .then(res=>res.json()
 )};
 
+// obtenemos un objeto usuario por su id
+
+let getUserById = (id) => {
+    return fetch(`https://fakestoreapi.com/users/${id}`)
+                .then(res=>res.json()
+)};
+
+
 let users={
-    getUsers
+    getUsers,
+    getUserById,
 };
 
 module.exports = users;
