@@ -89,7 +89,7 @@ npm install morgan  --save
    
   Parametro:
   
-    `/api/products?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
+    - `/api/products?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
    
 - `/api/products/:id` - obtener solo un producto, a través del id pasado por parámetro
 - `/api/products/category/:category` - obtener los productos de la misma categoria pasado por parámetro
@@ -98,11 +98,11 @@ npm install morgan  --save
   
   Primer parametro:
   
-   `/api/products/price/groupby?order=des` - Se encarga de ordenar los precios de MAYOR a MENOR
+   - `/api/products/price/groupby?order=des` - Se encarga de ordenar los precios de MAYOR a MENOR
   
   Segundo parametro:
   
-   `/api/products/price/groupby?order=asc` - Se encarga de ordenar los precios de MENOR a MAYOR
+   - `/api/products/price/groupby?order=asc` - Se encarga de ordenar los precios de MENOR a MAYOR
    
   
 - `/api/products/category/:category/expensive` - obtener los productos los productos más caros de una categoría específica ingresada por parametro
@@ -113,7 +113,7 @@ npm install morgan  --save
 
   Parametro:
   
-    `/api/carts?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
+    - `/api/carts?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
 
 - `/api/carts/bigcarts` - obtener los nombres de usuarios que tienen mas de dos productos en el carrito
 - `/api/carts/:id` - obtener solo un carrito, a través del id pasado por parámetro
