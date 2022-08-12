@@ -122,6 +122,7 @@ npm install morgan  --save
 - `/api/users/` - obtener todos los usuarios. Se puede usar 1 parametro
    
    Parametro:
+   
    `/api/users?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
 
 - `/api/users/:id` - obtener solo un usuario, a través del id pasado por parámetro
