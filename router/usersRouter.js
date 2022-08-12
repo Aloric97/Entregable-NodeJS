@@ -8,6 +8,8 @@ const usersController = require('../controllers/usersController');
 
 // Uso del metodo GET para los controladores de los usuarios
 router.get('/api/users', usersController.allUsers);
+router.get('/api/users/threeUsers',usersController.threeUsers);
+router.get('/api/users/:id', usersController.userById);
 
 
 // exportamos las rutas de los carritos
