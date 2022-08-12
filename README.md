@@ -123,7 +123,7 @@ npm install morgan  --save
    
    Parametro:
    
-   `/api/users?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
+   - `/api/users?limit=valor` - se encargar de limitar los valores obtenidos. En "valor" se reemplaza por cualquier numero positivo
 
 - `/api/users/:id` - obtener solo un usuario, a través del id pasado por parámetro
 - `/api/users/threeUsers` -obtener los 3 primeros usuarios, ordenados por id
