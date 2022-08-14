@@ -10,6 +10,8 @@ const allcarts = async (req, res) => {
 
     if (limit) {
         return res.status(200).json(carritos.slice(0, limit));
+    } else {
+        return res.status(200).json(carritos);
     }
 };
 
