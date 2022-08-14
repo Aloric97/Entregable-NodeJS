@@ -12,5 +12,5 @@ router.get('/api/users/threeUsers',usersController.threeUsers);
 router.get('/api/users/:id', usersController.userById);
 
 
-// exportamos las rutas de los carritos
+// exportamos las rutas de los usuarios
 module.exports = router;

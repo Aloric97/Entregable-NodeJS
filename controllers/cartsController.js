@@ -25,16 +25,18 @@ const cartsTwoProducts= async (req, res) => {
     const carrito = await carts.getCarts();
     const usuarios = await user.getUsers();
     const count_carritos = carrito.map(carrito => {
+        
         if (carrito.products.length > 1) {
             let user=usuarios.find(usuario => usuario.id === carrito.id);
-            if (user!==null) {
-                return {
-                    usuario: user.username
-                }
-            }
-    }});
+            return {
+                user_login:user.username,
+                firstname:user.name.firstname,
+                lastname:user.name.lastname,
+            };
+        }    
+    }).filter(user => user !== undefined);
     
-    res.json(count_carritos);
+    res.status(200).json(count_carritos);
 }
 
 
